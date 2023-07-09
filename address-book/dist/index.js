@@ -11,7 +11,7 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 var _a;
 exports.__esModule = true;
-exports.addressBookByChainId = exports.addressBook = void 0;
+exports.fetchAddressBookByChainId = exports.addressBook = void 0;
 var polygon_1 = require("./polygon");
 var chainid_1 = require("../types/chainid");
 __exportStar(require("../types/chainid"), exports);
@@ -22,4 +22,4 @@ var _addressBookByChainId = (_a = {},
     _a[chainid_1.ChainId.polygon] = polygon_1.polygon,
     _a);
 exports.addressBook = _addressBook;
-exports.addressBookByChainId = _addressBookByChainId;
+exports.fetchAddressBookByChainId = _addressBookByChainId;

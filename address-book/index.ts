@@ -16,7 +16,7 @@ const _addressBookByChainId = {
 export const addressBook: ConstRecord<typeof _addressBook, Chain> =
   _addressBook;
 
-export const addressBookByChainId: ConstRecord<
+export const fetchAddressBookByChainId: ConstRecord<
   typeof _addressBookByChainId,
   Chain
 > = _addressBookByChainId;
