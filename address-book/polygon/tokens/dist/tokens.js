@@ -1,0 +1,60 @@
+"use strict";
+exports.__esModule = true;
+exports.tokens = void 0;
+var MATIC = {
+    name: 'Wrapped Matic',
+    address: '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270',
+    symbol: 'WMATIC',
+    decimals: 18,
+    chainId: 137,
+    website: 'https://polygon.technology/',
+    description: 'Polygon is a protocol and a framework for building and connecting Ethereum-compatible blockchain networks. Aggregating scalable solutions on Ethereum supporting a multi-chain Ethereum ecosystem.',
+    logoURI: 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0/logo.png'
+};
+var MAI = {
+    name: 'Mai',
+    address: '0xa3Fa99A148fA48D14Ed51d610c367C61876997F1',
+    symbol: 'MAI',
+    decimals: 18,
+    chainId: 137,
+    website: 'https://www.mai.finance/',
+    description: "MAI is a stablecoin collateralized by your crypto holdings. It's powered by Qi Dao, a protocol that enables any cryptocurrency community to create stablecoins backed by their native tokens.",
+    logoURI: 'https://raw.githubusercontent.com/0xlaozi/qidao/main/images/mimatic-red.png',
+    documentation: 'https://docs.mai.finance/'
+};
+var _tokens = {
+    PLT: {
+        name: "Plancia Timelock",
+        symbol: "PTL",
+        address: "0x6d065E2BE1b46130a02f32141Ad6D356c40c3B11",
+        chainId: 137,
+        decimals: 18,
+        logoURI: "",
+        website: "https://plancia.vercel.app/",
+        description: "",
+        documentation: ""
+    },
+    PLT20: {
+        name: "Plancia Timelock ERC20",
+        symbol: "PTL20",
+        address: "0x20dF0Dfd899DE9efb27DEC094BbAe96bCF879711",
+        chainId: 137,
+        decimals: 18,
+        logoURI: "",
+        website: "https://plancia.vercel.app/",
+        description: "",
+        documentation: ""
+    },
+    PLT721: {
+        name: "Plancia Timelock ERC721",
+        symbol: "PTL20",
+        address: "0x8F359697f33aDdDBdC3a9baD83Ad20B50e9f6d93",
+        chainId: 137,
+        decimals: 18,
+        logoURI: "",
+        website: "https://plancia.vercel.app/",
+        description: "",
+        documentation: ""
+    }
+};
+exports.tokens = _tokens;

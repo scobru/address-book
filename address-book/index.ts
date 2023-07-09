@@ -1,8 +1,4 @@
 import { polygon } from "./polygon";
-import { bsc } from "./bsc";
-import { avax } from "./avax";
-import { fantom } from "./fantom";
-import { heco } from "./heco";
 import Chain from "../types/chain";
 import { ChainId } from "../types/chainid";
 import { ConstRecord } from "../types/const";
@@ -15,7 +11,6 @@ const _addressBook = {
 
 const _addressBookByChainId = {
   [ChainId.polygon]: polygon,
-
 } as const;
 
 export const addressBook: ConstRecord<typeof _addressBook, Chain> =
