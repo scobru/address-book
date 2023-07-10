@@ -14,7 +14,7 @@ As a contributor, you are expected to fork this repository, work on your own for
 
 ```bash
 cd address-book
-git remote add upstream https://github.com/beefyfinance/address-book.git
+git remote add upstream https://github.com/scobru/address-book.git
 git fetch upstream
 git pull --rebase upstream master
 ```
@@ -35,7 +35,7 @@ git commit -m "Added pancakeswap addresses"
 git push origin pancakeswap
 ```
 
-1.4) Go to [github.com/beefyfinance/address-book](https://github.com/beefyfinance/address-book) in your web browser and issue a new pull request.
+1.4) Go to [github.com/beefyfinance/address-book](https://github.com/scobru/address-book) in your web browser and issue a new pull request.
 
 5)Maintainers will review your code and possibly ask for changes before your code is pulled in to the main repository. We'll check that all tests pass, review the coding style, and check for general code correctness. If everything is OK, we'll merge your pull request and your code will be part of Beefy's address book.
 
@@ -43,7 +43,7 @@ git push origin pancakeswap
 
 ## All set
 
-If you have any questions, feel free to post them to [github.com/beefyfinance/address-book/issues](https://github.com/beefyfinance/address-book/issues).
+If you have any questions, feel free to post them to [github.com/scobru/address-book/issues](https://github.com/beefyfinance/address-book/issues).
 
 Finally, if you're looking to collaborate and want to find easy tasks to start, look at the issues we marked as ["Good first issue"](https://github.com/beefyfinance/address-book/issues?q=label%3A%22good+first+issue%22).
 
