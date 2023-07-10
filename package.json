@@ -1,6 +1,6 @@
 {
   "name": "@scobru/address-book",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A collection of useful addresses on various chains for defi development",
   "main": "build/address-book/index.js",
   "types": "build/address-book/index.d.ts",
