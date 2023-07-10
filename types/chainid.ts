@@ -1,4 +1,4 @@
-export declare enum ChainId {
+export enum ChainId {
   bsc = 56,
   heco = 128,
   polygon = 137,
@@ -18,5 +18,5 @@ export declare enum ChainId {
   kava = 2222,
   ethereum = 1,
   canto = 7700,
-  zksync = 324
+  zksync = 324,
 }
