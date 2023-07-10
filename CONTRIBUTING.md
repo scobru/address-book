@@ -1,4 +1,5 @@
-Contributing to Beefy's Address Book
+# CONTRIBUTING
+
 =======
 
 We really appreciate and value contributions to the Beefy.Finance repositories. Please take 5' to review the items listed below to make sure that your contributions are merged as soon as possible.
@@ -11,34 +12,36 @@ As a contributor, you are expected to fork this repository, work on your own for
 
 1) Make sure your fork is up to date with the main repository:
 
-```
+```bash
 cd address-book
 git remote add upstream https://github.com/beefyfinance/address-book.git
 git fetch upstream
 git pull --rebase upstream master
 ```
+
 NOTE: The directory `address-book` represents your fork's local copy.
 
-2) Branch out from `master` into `<platform name>`:
-```
+1.2) Branch out from `master` into `<platform name>`:
+
+```bash
 git checkout -b pancakeswap
 ```
 
-3) Make your changes, add your files, commit, and push to your fork.
+1.3)Make your changes, add your files, commit, and push to your fork.
 
-```
+```bash
 git add address-book/bsc/pancake.ts
 git commit -m "Added pancakeswap addresses"
 git push origin pancakeswap
 ```
 
-4) Go to [github.com/beefyfinance/address-book](https://github.com/beefyfinance/address-book) in your web browser and issue a new pull request.
+1.4) Go to [github.com/beefyfinance/address-book](https://github.com/beefyfinance/address-book) in your web browser and issue a new pull request.
 
-5) Maintainers will review your code and possibly ask for changes before your code is pulled in to the main repository. We'll check that all tests pass, review the coding style, and check for general code correctness. If everything is OK, we'll merge your pull request and your code will be part of Beefy's address book.
+5)Maintainers will review your code and possibly ask for changes before your code is pulled in to the main repository. We'll check that all tests pass, review the coding style, and check for general code correctness. If everything is OK, we'll merge your pull request and your code will be part of Beefy's address book.
 
 *IMPORTANT* Please pay attention to the maintainer's feedback, since its a necessary step to keep up with the standards Beefy.Finance attains to.
 
-## All set!
+## All set
 
 If you have any questions, feel free to post them to [github.com/beefyfinance/address-book/issues](https://github.com/beefyfinance/address-book/issues).
 
